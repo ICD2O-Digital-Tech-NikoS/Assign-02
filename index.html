@@ -1,9 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Calculating marks" />
+    <meta name="keywords" content="immaculata, ics2o" />
+    <meta name="author" content="Niko" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Converting test score to a percentage</title>
   </head>
   <body>
-    <p>Paragraph</p>
+    <!-- references javascript file -->
+    <script src="./js/script.js"></script>
+    <h1>Test Marks to Percentage</h1>
+    <h3>Please enter the following:</h3>
+    <p>
+      <!-- creates text field for users to input their marks, and their percentage will be displayed once the button is clicked -->
+      <form action="javascript: calculatePercentage()">
+        <label for="testmarks"">Enter Your Test Score and what it was out of:  </label>
+        <input type="number" step=".1" id="testmarks" placeholder="Test Mark" class="text-box">
+        <label for="testtotal"><b>/</b></label>
+        <input type="number" step=".1" id="testtotal" placeholder="Test Total" class="text-box">
+        <input type="submit" value="Calculate Percentage" id="percentbutton">
+      </form>
+    </p>
+    <!-- Create a space where the user information will be displayed -->
+    <div id="user-info">
+
+    </div>
+
+    <!-- idea, make multiple small boxes where the user puts their marks, then when calculate, it adds them together and divides it by the number of boxes -->
+    
+    <br>
+    <img src="./images/download.jpg" alt="rimce" height="600px" width="400px"" >
   </body>
 </html>

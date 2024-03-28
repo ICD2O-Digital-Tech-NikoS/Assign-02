@@ -1,4 +1,59 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Niko
+* Created on: march 2020
 * This file contains the CSS for index.html
 */
+
+body {
+  background-color: #ffffff;
+  font-size: 10pt;
+  font-family: Times New Roman, Times, serif, Geneva, Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 14pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 5pt;
+  text-align: center;
+}
+
+h1 {
+  font: 20pt Times New Roman;
+  font-weight: bold;
+  line-height: 20pt;
+  color: black;
+  padding: 20px;
+  margin-left: 600px;
+  margin-right: 600px;
+  background-color: #e1dbdb;
+}
+
+h3 {
+  font: 12pt Times New Roman, Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 16pt;
+  color: #000000;
+}
+
+label {
+  font-size: 13pt;
+  font-family: Times New Roman, Times, serif;
+}
+
+.text-box {
+  border-width: 5px;
+  border-radius: 7px;
+  border-color: lightgray;
+  width: 80px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12pt;
+  margin: 0.05in;
+}
+
+#percentbutton {
+  width: = 340px;
+  height: 40px;
+  margin: 0.1in;
+  border-radius: 7px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 13pt;
+}
+
