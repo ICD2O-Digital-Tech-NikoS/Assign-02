@@ -23,18 +23,18 @@ function calculateAverage() {
   // declaring variable for test scores
   let testScores = document.getElementById("testscores").value;
   let myResult = calculateAverageBackend(testScores);
+  let example1="1+5+9+10";
+  alert(calculateAverageBackend(example1));
   document.getElementById("average").innerHTML = "Your average test score is " + myResult.toFixed(1) + "%.";
   // calculates average by dividing test marks by test total and then multiplying by 100
 
 }
 
 // function to calculate average
-// someString in function brackets acts as a place holder for the function, and when you want to use the function ,you input a variable in place of someString, and it will calculate the function for that variable instead.
+// someString in function brackets acts as a place
 function calculateAverageBackend(someString) {
   // declaring variable for test scores
-
-  // split creates an array of strings,
-  alert(someString.split('+')[5]);
+  
   let numberOfPluses = someString.split('+').length;
   if (numberOfPluses == 0) return 0;
   let result = eval(someString)/numberOfPluses;

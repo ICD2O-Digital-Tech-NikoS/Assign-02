@@ -32,7 +32,20 @@
     <div id="user-info">
 
     </div>
+    <br>
+    <div>
+      <p>
+        <!-- creates text field for users to input their marks, and their percentage will be displayed once the button is clicked -->
+        <form action="javascript: calculateAverage()">
+          <label for="testscores"">Enter Your Test Scores:  </label>
+          <input type="text" id="testscores" placeholder="Test Scores">
+          <input type="submit" value="Calculate Average" id="averagebutton">
+        </form>
+      </p>
+      <div id="average">
 
+      </div>
+    </div>
     <!-- idea, make multiple small boxes where the user puts their marks, then when calculate, it adds them together and divides it by the number of boxes -->
     
     <br>
