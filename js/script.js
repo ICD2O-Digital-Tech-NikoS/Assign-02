@@ -33,8 +33,7 @@ function calculateAverage() {
 function calculateAverageBackend(someString) {
   // declaring variable for test scores
 
-  // split creates an array of strings,
-  alert(someString.split('+')[5]);
+  // split creates an array of strings, and counts the number of strings and saves it as a variable called numberOfPluses, so now that number of strings(the amount of test scores the user inputs) is saved as a variable called numberOfPluses and can be called.
   let numberOfPluses = someString.split('+').length;
   if (numberOfPluses == 0) return 0;
   let result = eval(someString)/numberOfPluses;
