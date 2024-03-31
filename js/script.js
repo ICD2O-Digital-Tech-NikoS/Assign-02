@@ -35,8 +35,14 @@ function calculateAverageBackend(someString) {
 
   // split creates an array of strings, and counts the number of strings and saves it as a variable called numberOfPluses, so now that number of strings(the amount of test scores the user inputs) is saved as a variable called numberOfPluses and can be called.
   let numberOfPluses = someString.split('+').length;
+  
+  // if the user inputs no test scores, it will just display 0
   if (numberOfPluses == 0) return 0;
+  
+  // does final calculation, evaluates and calculates the sum of the test scores, and divides it by the number of test scores the user inputted
   let result = eval(someString)/numberOfPluses;
+  
+  // closes function and returns the result
   return result;
  
 
