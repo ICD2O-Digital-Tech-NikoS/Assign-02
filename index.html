@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <!-- contains the meta data, author, title, favicon, links to style sheets and other important information -->
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="Calculating marks" />
@@ -11,17 +12,17 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
     <link rel="manifest" href="./favicon/site.webmanifest" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Converting test score to a percentage</title>
+    <title>Grade Calculator</title>
   </head>
   <body>
     <!-- references javascript file -->
     <script src="./js/script.js"></script>
-    <h1>Test Marks to Percentage</h1>
-    <h3>Please enter the following:</h3>
+    <h1>Grade Calculator</h1>
+    <h3 class="box">Please enter the following:</h3>
     <p>
       <!-- creates text field for users to input their marks, and their percentage will be displayed once the button is clicked -->
-      <form action="javascript: calculatePercentage()">
-        <label for="testmarks"">Enter Your Test Score and what it was out of:  </label>
+      <form action="javascript: calculatePercentage()" class="box">
+        <label for="testmarks">Enter Your Test Score and what it was out of:  </label>
         <input type="number" step=".1" id="testmarks" placeholder="Test Mark" class="text-box">
         <label for="testtotal"><b>/</b></label>
         <input type="number" step=".1" id="testtotal" placeholder="Test Total" class="text-box">
@@ -32,9 +33,8 @@
     <div id="user-info">
 
     </div>
-    <br>
-    <div>
-      <p>
+    <div class="box">
+      <p> 
         <!-- creates text field for users to input their marks, and their percentage will be displayed once the button is clicked -->
         <form action="javascript: calculateAverage()">
           <label for="testscores"">Enter Your Test Scores:  </label>
@@ -42,13 +42,13 @@
           <input type="submit" value="Calculate Average" id="averagebutton">
         </form>
       </p>
-      <div id="average">
+    </div>
+    <div id="average">
 
-      </div>
     </div>
     <!-- idea, make multiple small boxes where the user puts their marks, then when calculate, it adds them together and divides it by the number of boxes -->
     
     <br>
-    <img src="./images/download.jpg" alt="rimce" height="600px" width="400px"" >
+    <img src="./images/john.gif" alt="john man small face" height="300px" width="1200px"" >
   </body>
 </html>

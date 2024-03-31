@@ -4,7 +4,7 @@
 */
 
 body {
-  background-color: #ffffff;
+  background-color: #e3dcb5;
   font-size: 10pt;
   font-family: Times New Roman, Times, serif, Geneva, Arial, Helvetica, sans-serif;
   color: black;
@@ -16,14 +16,14 @@ body {
 }
 
 h1 {
-  font: 20pt Times New Roman;
+  font: 30pt Times New Roman;
   font-weight: bold;
   line-height: 20pt;
-  color: black;
+  color: #eac439;
   padding: 20px;
   margin-left: 600px;
   margin-right: 600px;
-  background-color: #e1dbdb;
+  background-color: hsl(0, 4%, 20%);
 }
 
 h3 {
@@ -57,3 +57,33 @@ label {
   font-size: 13pt;
 }
 
+#testscores {
+  border-width: 5px;
+  border-radius: 7px;
+  border-color: lightgray;
+  width: 600px;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12pt;
+}
+
+.box {
+  background-color: #9d825c;
+  padding: 9.5px;
+  border-radius: 7px;
+  margin-left: 620px;
+  margin-right: 620px;
+  text-align: center;
+}
+
+#user-info, #average {
+  background-color: #e2eacc;
+  color: rgb(94,12,105);
+  padding: 9px;
+  border-radius: 7px;
+  margin-left: 620px;
+  margin-right: 620px;
+  text-align: center;
+  font-family: Times New Roman, Times, serif;
+  font-size: 12pt;
+  font-weight: 1000;
+}
