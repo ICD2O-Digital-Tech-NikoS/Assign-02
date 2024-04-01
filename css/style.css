@@ -30,7 +30,8 @@ h1 {
 }
 
 h3 {
-  font: 12pt Times New Roman, Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font: 12pt;
+  font-family: Times New Roman, Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 10pt;
   color: #000000;
