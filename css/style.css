@@ -3,8 +3,11 @@
 * This file contains the CSS for index.html
 */
 
+html {
+   background-color: #e3dcb5;
+}
+
 body {
-  background-color: #e3dcb5;
   font-size: 10pt;
   font-family: Times New Roman, Times, serif, Geneva, Arial, Helvetica, sans-serif;
   color: black;
@@ -29,7 +32,7 @@ h1 {
 h3 {
   font: 12pt Times New Roman, Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: bold;
-  line-height: 16pt;
+  line-height: 10pt;
   color: #000000;
 }
 
