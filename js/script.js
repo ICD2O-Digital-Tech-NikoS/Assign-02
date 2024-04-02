@@ -4,7 +4,7 @@
 
 "use strict"
 
-// function to calculate percentage
+// function to calculate percentage front-end only
 function calculatePercentage() {
   // declaring variable for test marks
   let testMarks = document.getElementById("testmarks").value;
@@ -14,7 +14,7 @@ function calculatePercentage() {
 
   // calculates result by dividing test marks by test total and then multiplying by 100
   let result = testMarks/testTotal * 100;
-  document.getElementById("user-info").innerHTML = "Your test score was " + result.toFixed(0) + "%.";
+  document.getElementById("user-info").innerHTML = "Your test score was " + result.toFixed(1) + "%.";
 
 }
 
@@ -43,6 +43,7 @@ function calculateAverageBackend(someString) {
 function calculateAverage() {
   // declaring variable for test scores
   let testScores = document.getElementById("testscores").value;
+  // declares variable called results to display the result when testscores are plugged into the back-end function
   let myResult = calculateAverageBackend(testScores);
   document.getElementById("average").innerHTML = "Your average test score is " + myResult.toFixed(1) + "%.";
   // calculates average by dividing test marks by test total and then multiplying by 100

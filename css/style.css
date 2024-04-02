@@ -18,7 +18,7 @@ body {
   text-align: center;
 }
 
-h1 {
+#header {
   font: 30pt Times New Roman;
   font-weight: bold;
   line-height: 20pt;
@@ -29,7 +29,7 @@ h1 {
   background-color: hsl(0, 4%, 20%);
 }
 
-h3 {
+#subhead {
   font: 12pt;
   font-family: Times New Roman, Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: bold;
