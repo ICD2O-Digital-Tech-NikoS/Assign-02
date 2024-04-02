@@ -19,16 +19,6 @@ function calculatePercentage() {
 }
 
 // function to calculate average
-function calculateAverage() {
-  // declaring variable for test scores
-  let testScores = document.getElementById("testscores").value;
-  let myResult = calculateAverageBackend(testScores);
-  document.getElementById("average").innerHTML = "Your average test score is " + myResult.toFixed(1) + "%.";
-  // calculates average by dividing test marks by test total and then multiplying by 100
-
-}
-
-// function to calculate average
 // someString in function brackets acts as a place holder for the function, and when you want to use the function ,you input a variable in place of someString, and it will calculate the function for that variable instead.
 function calculateAverageBackend(someString) {
   // declaring variable for test scores
@@ -49,4 +39,12 @@ function calculateAverageBackend(someString) {
 }
 
 
+// front-end function to calculate average 
+function calculateAverage() {
+  // declaring variable for test scores
+  let testScores = document.getElementById("testscores").value;
+  let myResult = calculateAverageBackend(testScores);
+  document.getElementById("average").innerHTML = "Your average test score is " + myResult.toFixed(1) + "%.";
+  // calculates average by dividing test marks by test total and then multiplying by 100
 
+}

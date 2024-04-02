@@ -29,7 +29,7 @@
     <h1>Grade Calculator</h1>
     <h3 class="box">Please enter the following:</h3>
     <p>
-      <!-- creates text field for users to input their marks, and their percentage will be displayed once the button is clicked -->
+      <!-- creates text field for users to input their marks and test total, and their percentage will be displayed once the button is clicked -->
       <form action="javascript: calculatePercentage()" class="box">
         <label for="testmarks">Enter Your Test Score and what it was out of:  </label>
         <input type="number" step=".1" id="testmarks" placeholder="Test Mark" class="text-box">
@@ -44,7 +44,7 @@
     </div>
     <div class="box">
       <p> 
-        <!-- creates text field for users to input their marks, and their percentage will be displayed once the button is clicked -->
+        <!-- creates text field for users to input multiple marks, and their average will be displayed when button clicked  -->
         <form action="javascript: calculateAverage()">
           <label for="testscores"">Enter Your Test Scores:  </label>
           <input type="text" id="testscores" placeholder="Test Scores">
@@ -52,6 +52,7 @@
         </form>
       </p>
     </div>
+    <!-- Create a space where the user information will be displayed -->
     <div id="average">
 
     </div>
@@ -59,6 +60,7 @@
     <input class="mdl-slider mdl-js-slider" type="range"
       min="0" max="100" value="25" tabindex="0">
     <br>
+    <!-- image --> 
     <img src="./images/john.gif" alt="john man small face" height="300px" width="1200px">
   </body>
 </html>
